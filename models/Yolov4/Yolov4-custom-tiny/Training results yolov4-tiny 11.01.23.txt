@@ -1,0 +1,24 @@
+next mAP calculation at 6000 iterations) 
+ Last accuracy mAP@0.50 = 36.09 %, best = 38.36 % 
+ 6000: 0.753903, 0.691076 avg loss, 0.000026 rate, 0.494099 seconds, 96000 images, 0.019606 hours left
+
+ calculation mAP (mean average precision)...
+ Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+16
+ detections_count = 136, unique_truth_count = 104  
+class_id = 0, name = maiz14, ap = 36.06%   	 (TP = 29, FP = 7) 
+
+ for conf_thresh = 0.25, precision = 0.81, recall = 0.28, F1-score = 0.41 
+ for conf_thresh = 0.25, TP = 29, FP = 7, FN = 75, average IoU = 54.10 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.360552, or 36.06 % 
+Total Detection Time: 1 Seconds
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+ mean_average_precision (mAP@0.50) = 0.360552 
