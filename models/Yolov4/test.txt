@@ -1,0 +1,13 @@
+data/val/test_images/m13-m14-1221.jpg
+data/val/test_images/m13-m14-2048.jpg
+data/val/test_images/m13-m14-1027.jpg
+data/val/test_images/m13-m14-2109.jpg
+data/val/test_images/m13-m14-0396.jpg
+data/val/test_images/m13-m14-1410.jpg
+data/val/test_images/m13-m14-0037.jpg
+data/val/test_images/m13-m14-0064.jpg
+data/val/test_images/m13-m14-0028.jpg
+data/val/test_images/m13-m14-0239.jpg
+data/val/test_images/m13-m14-0196.jpg
+data/val/test_images/m13-m14-0097.jpg
+data/val/test_images/m13-m14-2321.jpg
