@@ -1,0 +1,32 @@
+
+ (next mAP calculation at 2000 iterations) 
+ Last accuracy mAP@0.50 = 80.80 %, best = 81.30 % 
+ 2000: 6.263172, 5.648176 avg loss, 0.000013 rate, 3.301802 seconds, 32000 images, 0.076396 hours left
+Resizing to initial size: 416 x 416  try to allocate additional workspace_size = 52.44 MB 
+ CUDA allocate done! 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+16
+ detections_count = 548, unique_truth_count = 104  
+class_id = 0, name = maiz14, ap = 78.94%   	 (TP = 86, FP = 49) 
+
+ for conf_thresh = 0.25, precision = 0.64, recall = 0.83, F1-score = 0.72 
+ for conf_thresh = 0.25, TP = 86, FP = 49, FN = 18, average IoU = 45.21 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.789380, or 78.94 % 
+Total Detection Time: 1 Seconds
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+ mean_average_precision (mAP@0.50) = 0.789380 
+Saving weights to /mydrive/yolov4/run/yolov4-custom_2000.weights
+Saving weights to /mydrive/yolov4/run/yolov4-custom_last.weights
+Saving weights to /mydrive/yolov4/run/yolov4-custom_final.weights
+If you want to train from the beginning, then use flag in the end of training command: -clear
