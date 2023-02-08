@@ -1,4 +1,4 @@
-weights: /content/gdrive/MyDrive/yolov7/yolov7/runs/train/yolov7-custom-tiny3/weights/best.pt
+weights: yolov7-tiny.pt
 cfg: cfg/training/yolov7_custom-tiny.yaml
 data: data/custom.yaml
 hyp: data/hyp.scratch.custom.yaml
@@ -39,5 +39,5 @@ freeze:
 v5_metric: false
 world_size: 1
 global_rank: -1
-save_dir: runs/train/yolov7-custom-tiny4
+save_dir: runs/train/yolov7-custom-tiny
 total_batch_size: 8
