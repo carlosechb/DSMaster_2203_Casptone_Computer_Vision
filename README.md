@@ -1,4 +1,4 @@
-# Capstone: Computer Vission applied to agricultural vehicles
+# Capstone: Computer Vision applied to agricultural vehicles
 Repository to handle the project's code. 
 
 Link dataset - Digital Csic : http://hdl.handle.net/10261/287771
